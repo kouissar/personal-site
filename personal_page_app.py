@@ -54,8 +54,8 @@ with st.container():
 
 with right_col:
     #st_lottie(lottie_coding, height=300, key="coding")
-    image = Image.open('assets/me.png')
-    st.image(image, caption='Sunrise by the mountains',  clamp=False)
+    image = Image.open('assets/me.jpg')
+    st.image(image, caption='Sunshine by the island',  clamp=False)
 
 
 # 
