@@ -9,7 +9,7 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title="My Web Page", page_icon=":tada:", layout="wide"
+    page_title="My Digital Profile", page_icon=":tada:", layout="wide"
 )
 
 def load_lottieurl(url):
@@ -32,7 +32,7 @@ lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_fyil
 with st.container():
     st.subheader("Hi, I am Rafik :wave:")
     st.title("A Software Engineer From Maryland, USA")
-    st.write("I am passionate about coding, music, outdoor adventures and hiking...")
+    st.write("I am passionate about coding, music, outdoor adventures, camping, and hiking...")
     #sp.speak("Hi, I am Rafik. A Software Engineer From USA.I am passionate about coding, fishing, and music. What about you? ")
 
 
@@ -44,11 +44,12 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I have built a number of technology projects with emphasis on:
-            - Test automation with Selenium Java and Python
-            - All sorts of automation projects and integration of automation solutions using Jenkins
-            - Service oriented architecture
-            - Natural Language Processing NLP and machine learning using Python
+            I currently work as a Solutions Architect at CareFirst BCBS. I have built and contributed to many technology projects in the areas of:
+            - Test and QA automation
+            - DevOps and infrastructre automation
+            - Performance engineering and APM
+            - Machine Learning and Natural Language Processing NLP using Python
+            - Open source technologies
             """
         )
 
