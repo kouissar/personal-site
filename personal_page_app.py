@@ -18,6 +18,8 @@ def load_lottieurl(url):
         return None
     return r.json()
 
+
+
 # Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
@@ -26,7 +28,7 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_fyilltcq.json")
+lottie_coding=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_8kut1rsr.json")
 
 # Header Section 
 with st.container():
@@ -50,6 +52,7 @@ with st.container():
             - Performance engineering and APM
             - Machine Learning and Natural Language Processing NLP using Python
             - Open source technologies
+            [Visit my Linkedin Profile](https://www.linkedin.com/in/rkouissar/)
             """
         )
 
@@ -113,7 +116,20 @@ with st.container():
     </form>
     """
     left_column, right_column = st.columns(2)
-    with left_column:
-        st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-        st.empty()
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with left_column:
+        # st.empty()
+        st_lottie(
+            lottie_coding,
+            speed=1,
+            reverse=False,
+            loop=True,
+            quality="low", #medium, high
+            # renderer="svg", #canvas
+            height="None",
+            width="None",
+            key="None",
+
+
+        )
