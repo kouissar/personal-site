@@ -34,7 +34,7 @@ lottie_coding=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_8kut
 with st.container():
     st.subheader("Hi, I am Rafik :wave:")
     st.title("A Software Engineer From Maryland, USA")
-    st.write("I am passionate about coding, music, outdoor adventures, camping, and hiking...")
+    st.write("I am a highly motivated individual with a passion for coding, music, and outdoor adventures. In my free time, I enjoy hiking and camping in the great outdoors, as well as playing and composing music. I am always looking for new challenges and ways to learn and grow, both personally and professionally. Whether I'm coding a new software application or exploring the wilderness, I am driven by my love of problem-solving and creation.")
     #sp.speak("Hi, I am Rafik. A Software Engineer From USA.I am passionate about coding, fishing, and music. What about you? ")
 
 
@@ -58,7 +58,9 @@ with st.container():
 
 with right_col:
     #st_lottie(lottie_coding, height=300, key="coding")
-    image = Image.open('assets/me.jpg')
+    # image = Image.open('assets/me2.png')
+    image = Image.open('assets/big-me.jpg')
+
     st.image(image, caption='Sunshine by the island',  clamp=False)
 
 
