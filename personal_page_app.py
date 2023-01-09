@@ -46,13 +46,15 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I currently work as a Solutions Architect at CareFirst BCBS. I have built and contributed to many technology projects in the areas of:
-            - Test and QA automation
-            - DevOps and infrastructre automation
-            - Performance engineering and APM
-            - Machine Learning and Natural Language Processing NLP using Python
-            - Open source technologies
+            I am currently a Solutions Architect at CareFirst BCBS where I have been involved in various technology projects including test and QA automation, DevOps and infrastructure automation, performance engineering and APM, machine learning and NLP using Python, as well as working with open source technologies.
+            
             [Visit my Linkedin Profile](https://www.linkedin.com/in/rkouissar/)
+
+            My areas of expertise include test and QA automation, which involves the creation and execution of automated tests to ensure the quality of software applications. I have also worked on projects related to DevOps and infrastructure automation, which focus on the deployment and management of software applications and the provisioning and configuration of infrastructure resources. Additionally, I have experience in performance engineering and APM, where I have optimized the performance of software applications by identifying and addressing bottlenecks and implementing tools for monitoring and measuring performance. I have also utilized my skills in Python and machine learning to build and implement models and algorithms for data processing and analysis, such as natural language processing. In my work, I have also had the opportunity to utilize and contribute to open source technologies.
+
+
+
+
             """
         )
 
